@@ -25,3 +25,14 @@
 `Boolean false = gson.fromJson("false", Boolean.class);`
 `String str = gson.fromJson("\"abc\"", String.class);`
 `String[] anotherStr = gson.fromJson("[\"abc\"]", String[].class);`
+
+# lab 9
+## description 
+- app that connect with internet and send get request to the aoi then return data from the api and display it 
+
+## instructions 
+- create URL object and put the api address
+- create function to connect to api that use HTTPUrlConnection object
+- create a BufferedReader object to reade the data from api
+- create function getContact that reade the data from BufferedReader and store it in StringBuilder and return it 
+- finally we need to crate function that call the class that we need to pass the data to it 
