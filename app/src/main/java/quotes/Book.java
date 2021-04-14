@@ -8,6 +8,7 @@ public class Book {
     String text;
 
 
+
     @Override
     public int hashCode() {
         return Objects.hash(author, text);
